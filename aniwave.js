@@ -2653,9 +2653,7 @@ function _0x11ff(c, n) {
             u[n] = !(1 * 1423 + 5873 * -1 + 4451);
           }
           function K() {
-            for (var n in u)
-              if (u[n]) return (F = !(-9785 + -37 * -223 + 1534));
-            return (F = !(2 * -2939 + 8965 + -3086));
+            return false
           }
           function i() {
             return new i3()[p3 + y8]();
@@ -4645,7 +4643,7 @@ function _0x11ff(c, n) {
                 md5: y1,
                 version: D1[S(900, "O9xX") + "kq"](c8 + _1 + Z7, _1) + c3,
                 DetectorType: c,
-                isDevToolOpened: false,
+                isDevToolOpened: k,
               }
             );
           return (
