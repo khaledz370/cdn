@@ -4643,7 +4643,7 @@ function _0x11ff(c, n) {
                 md5: y1,
                 version: D1[S(900, "O9xX") + "kq"](c8 + _1 + Z7, _1) + c3,
                 DetectorType: c,
-                isDevToolOpened: k,
+                isDevToolOpened: K,
               }
             );
           return (
