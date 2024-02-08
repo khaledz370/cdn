@@ -49,3 +49,15 @@ button[data-id="434"],button[data-id="451"]{
 	border-radius:10px 10px 0px 0px;
 	background-color:#2e2f37;
 }
+
+.button-textonly.SpeedDialView-SearchField.iconmenu-container.SearchField.below{
+	border-radius:35px
+}
+
+.sdwrapper .iconmenu-container.SearchField {
+	height:50px;
+}
+
+.SpeedDialView-Head{
+	max-width:900px !important;
+}
