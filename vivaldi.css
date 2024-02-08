@@ -1,0 +1,51 @@
+#main > .mainbar, .mainbar > .toolbar-mainbar, .button-toolbar, .button-toolbar > button{
+	height:50px
+}
+
+.UrlBar-SearchField, .UrlBar-AddressField {
+	height:40px	
+}
+
+#tabs-container .button-toolbar{
+	height:34px
+}
+
+.BookmarkButton{
+	height:unset
+}
+
+.bookmark-bar.default{
+	height:34px
+}
+
+*:focus-visible{
+	outline:none;
+}
+
+.color-behind-tabs-on .bookmark-bar button:focus-visible, .color-behind-tabs-on .bookmark-bar button:hover{
+	border-radius:10px
+}
+
+button[data-id="434"],button[data-id="451"]{
+	display:none
+}
+
+#tabs-tabbar-container,.window-buttongroup>button,#titlebar>button{
+	height:35px !important
+}
+
+.tab-position .tab .tab-header{
+	margin-top:4px
+}
+.bookmark-bar button .title{
+	font-size:14px
+}
+
+#main>.mainbar{
+	background-color:#433939;
+}
+
+.mainbar>.toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-visible.toolbar-large{
+	border-radius:10px 10px 0px 0px;
+	background-color:#2e2f37;
+}
