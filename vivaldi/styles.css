@@ -42,12 +42,17 @@ button[data-id="434"],button[data-id="451"]{
 }
 
 #main>.mainbar{
-	background-color:#433939;
+	background-color: var(--colorAccentBorderDark);
 }
 
 .mainbar>.toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-visible.toolbar-large{
 	border-radius:10px 10px 0px 0px;
 	background-color:#2e2f37;
+	padding-right:55px;
+}
+
+.win #tabs-container:not(.none).top{
+	padding-left:11px;
 }
 
 .button-textonly.SpeedDialView-SearchField.iconmenu-container.SearchField.below{
@@ -60,4 +65,25 @@ button[data-id="434"],button[data-id="451"]{
 
 .SpeedDialView-Head{
 	max-width:900px !important;
+}
+
+button[name='ekpipjofdicppbepocohdlgenahaneen'] img{
+	content:url("./Audio.ico");
+}
+
+div.observer > button.bookmarkbarItem {
+	margin-bottom:5px;
+}
+
+button.vivaldi[title="Menu"]{
+	top: 41px;
+    z-index: 99;
+    right: 0;
+    left: unset;
+	padding-right: 23px;
+    padding-left: 23px;
+}
+
+#titlebar>.tabbar-wrapper{
+	margin-bottom:10px
 }
