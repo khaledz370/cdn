@@ -107,6 +107,7 @@ div.button-toolbar:has(button[name="AccountButton"]){
 	left:6px
 }
 
+/* favicon annoying background */
 .transparent-tabbar .tab-position .tab.active .tab-header .favicon:not(.svg), .theme-dark .tab-position .tab.active .tab-header .favicon:not(.svg), .acc-dark.color-behind-tabs-off .tab-position .tab.active .tab-header .favicon:not(.svg) {
     filter: unset !important
 }
