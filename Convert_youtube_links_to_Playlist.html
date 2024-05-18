@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube links to Playlist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1>Convert youtube links to Playlist</h1>
+        <div class="mb-3">
+            <textarea style="min-height:260px;max-height:400px" id="urls" rows="10" class="form-control" placeholder="Paste your Youtube links here"></textarea>
+        </div>
+        <div style="text-align: center">
+            <button onclick="extractIDs()" class="btn btn-primary">Extract IDs</button>
+            <div>
+                <p id="result" style="text-align: left;" class="me-2"></p>
+            </div>
+            <button style="display: none;" id="copyButton" class="btn btn-secondary" onclick="copyText()" >Copy</button>
+            <a target="_blank" style="display: none;" id="playlist" href="#" class="btn btn-danger"></a>
+            <button id="clearButton" class="btn btn-secondary" onclick="clearAll()" >Clear</button>
+        </div>
+    </div>
+
+    <script>
+        const playlistLinkBtn = document.getElementById("playlist");
+        const textArea = document.getElementById("urls");
+        const resultElement = document.getElementById("result");
+        const copyButton = document.getElementById("copyButton")
+
+        function extractIDs() {
+            const urlLines = textArea.value.split("\n"); // Split lines by newline
+            let extractedIDs = "";
+
+            for (const url of urlLines) {
+                const videoID = url.split("v=")[1];  // Extract part after "v="
+                if (videoID) {
+                    extractedIDs += videoID + ",";  // Add ID and comma
+                }
+            }
+
+            // Remove the trailing comma
+            extractedIDs = extractedIDs.slice(0, -1);
+            extractedIDs = `http://www.youtube.com/watch_videos?video_ids=${extractedIDs}`
+            document.getElementById("result").textContent = extractedIDs;
+            playlistLinkBtn.href = extractedIDs
+            playlistLinkBtn.textContent = "open playlist in another tab"
+            playlistLinkBtn.style.display = "unset"
+            copyButton.style.display = "unset"
+        }
+
+        function copyText() {
+            const text = resultElement.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied to clipboard!");
+            }, (err) => {
+                console.error('Failed to copy: ', err);
+                alert("Failed to copy text. Please try again.");
+            });
+        }
+
+        function clearAll() { 
+            resultElement.textContent = ""
+            textArea.value = ""
+            copyButton.style.display = "none"
+            playlistLinkBtn.style.display = "none"
+         }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
