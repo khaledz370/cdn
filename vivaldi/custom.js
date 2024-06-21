@@ -1,0 +1,1 @@
+C:/Program Files (x86)/vivaldi/Application/6.6.3271.48/resources/vivaldi/custom.js
