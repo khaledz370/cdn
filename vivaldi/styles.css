@@ -1,8 +1,16 @@
-#main > .mainbar,
-.mainbar > .toolbar-mainbar,
+:root {
+  --popupWidth: 170px
+}
+
+#main>.mainbar,
+.mainbar>.toolbar-mainbar,
 .button-toolbar,
-.button-toolbar > button {
+.button-toolbar>button {
   height: 50px;
+}
+
+#main {
+  overflow: unset !important;
 }
 
 /* address bar */
@@ -20,7 +28,8 @@
 }
 
 .bookmark-bar.default {
-  height: 34px;
+  height: 50px;
+  padding-top: 5px;
 }
 
 *:focus-visible {
@@ -34,8 +43,8 @@
 
 /* tabs-tabbar-container */
 #tabs-tabbar-container,
-.window-buttongroup > button,
-#titlebar > button {
+.window-buttongroup>button,
+#titlebar>button {
   height: 35px !important;
 }
 
@@ -50,13 +59,12 @@
 }
 
 /* back of the toolbar */
-#main > .mainbar {
+#main>.mainbar {
   background-color: var(--colorAccentBorderDark);
 }
 
 /* toolbar */
-.mainbar
-  > .toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-visible.toolbar-large {
+.mainbar>.toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-visible.toolbar-large {
   border-radius: 10px 10px 0px 0px;
   background-color: #2e2f37;
   padding-right: 5px;
@@ -64,7 +72,7 @@
 
 /* tab container */
 /* .win #tabs-container:not(.none).top { */
-  /* padding-left: 11px; */
+/* padding-left: 11px; */
 /* } */
 
 /* search bar in speed-dail page */
@@ -77,13 +85,20 @@
   max-width: 900px !important;
 }
 
+/* search bar search icon */
+
+#webpage-stack>div>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.SpeedDialView-Head>div>div>div.toolbar-insideinput.SearchEngineSelect-Icon>div>button {
+  height: 50px;
+  width: 50px;
+}
+
 /* streamkeys extention */
 button[name="ekpipjofdicppbepocohdlgenahaneen"] img {
   content: url("./Audio.ico");
 }
 
 /* bookmark bar */
-div.observer > button.bookmarkbarItem {
+div.observer>button.bookmarkbarItem {
   margin-bottom: 5px;
 }
 
@@ -110,11 +125,7 @@ div.observer > button.bookmarkbarItem {
 /* favicon annoying background */
 .transparent-tabbar .tab-position .tab.active .tab-header .favicon:not(.svg),
 .theme-dark .tab-position .tab.active .tab-header .favicon:not(.svg),
-.acc-dark.color-behind-tabs-off
-  .tab-position
-  .tab.active
-  .tab-header
-  .favicon:not(.svg) {
+.acc-dark.color-behind-tabs-off .tab-position .tab.active .tab-header .favicon:not(.svg) {
   filter: unset !important;
 }
 
@@ -125,4 +136,30 @@ div.observer > button.bookmarkbarItem {
 button[class="account-item"][title="gayaa370"],
 button[class="account-item-large"][title="gayaa370"] {
   display: none;
+}
+
+/* extension popup list */
+/* .extensionIconPopupMenu>.toolbar {
+  display: flex;
+  flex-direction: column;
+} */
+
+
+#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below>div:nth-child(1)>div>button {
+  width: 50px;
+  height: 33px;
+}
+
+#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below>div.toolbar.toolbar-small.toolbar-insideinput>div>button {
+  width: 50px;
+  height: 33px;
+}
+
+#main>div.mainbar>div {
+  padding-top: 10px;
+}
+
+/* search suggestions */
+.OmniLinkItem {
+  padding: 9px 9px !important;
 }

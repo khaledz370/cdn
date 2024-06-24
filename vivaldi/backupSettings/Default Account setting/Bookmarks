@@ -1,0 +1,156 @@
+{
+   "checksum": "2152c768245e18d9e43a20a1bf2869d5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13363695538260515",
+               "date_last_used": "0",
+               "guid": "a3b6049b-0613-4f2d-ac4d-414c845855d5",
+               "id": "37",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/7QOBKF6ZDTVPEHMWEWPMCTUMNUWDWXOH.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "google",
+               "type": "url",
+               "url": "https://google.com/"
+            }, {
+               "date_added": "13363695558786604",
+               "date_last_used": "0",
+               "guid": "3ef96cdc-e771-4fd6-926c-507ed74a8e0e",
+               "id": "38",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/GNZ3MX7P5PTDWAUWXZ7XANKA5KXTNULX.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Youtube",
+               "type": "url",
+               "url": "https://youtube.com/"
+            }, {
+               "date_added": "13363695571748019",
+               "date_last_used": "0",
+               "guid": "35fd7bdb-c228-41fb-8df4-84dc174bf159",
+               "id": "39",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/TVKO42GF6BXSKRKXJZ3OL6G7VIV4VHM7.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Facebook",
+               "type": "url",
+               "url": "https://facebook.com/"
+            }, {
+               "date_added": "13363695583804170",
+               "date_last_used": "0",
+               "guid": "c00035a3-1a35-4839-a974-82db35e77513",
+               "id": "40",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/KBDF7KVFD2XRJDLOXU6Z2SXRUVVZTRD5.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Gmail",
+               "type": "url",
+               "url": "https://mail.google.com/"
+            }, {
+               "date_added": "13363695601770552",
+               "date_last_used": "0",
+               "guid": "1e269a1c-93a5-42be-8208-d50f7949e7a2",
+               "id": "41",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/4I7HVBVOSXBX6QCVJPSZ4FRRNQT5YWTU.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Drive",
+               "type": "url",
+               "url": "https://drive.google.com/"
+            }, {
+               "date_added": "13363695620114859",
+               "date_last_used": "0",
+               "guid": "71ec0a71-59e9-4de1-a43a-58d63379483a",
+               "id": "42",
+               "meta_info": {
+                  "Thumbnail": "",
+                  "power_bookmark_meta": ""
+               },
+               "name": "TP-Link",
+               "type": "url",
+               "url": "http://192.168.1.1/"
+            }, {
+               "date_added": "13363695656974601",
+               "date_last_used": "0",
+               "guid": "c8df9336-fdd9-4776-aab7-0ed42ad507ea",
+               "id": "43",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/NM7EEXGWIFOC7HHSAAQXNQC2VZRRXQQ6.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Gemini",
+               "type": "url",
+               "url": "https://gemini.google.com/app"
+            } ],
+            "date_added": "13363695170025567",
+            "date_last_used": "0",
+            "date_modified": "13363695656974601",
+            "guid": "44641543-f123-438f-bc5c-8da7bb7c6819",
+            "id": "6",
+            "meta_info": {
+               "Partner": "44641543-f123-438f-bc5c-8da7bb7c6819",
+               "Speeddial": "true"
+            },
+            "name": "Speed Dial",
+            "type": "folder"
+         } ],
+         "date_added": "13363695167169756",
+         "date_last_used": "0",
+         "date_modified": "13363695516345328",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13363695167169759",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13363695167169763",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      },
+      "trash": {
+         "children": [ {
+            "date_added": "13363695170025783",
+            "date_last_used": "0",
+            "guid": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+            "id": "9",
+            "meta_info": {
+               "Description": "shopping, electronics",
+               "Partner": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+               "Thumbnail": "/resources/sd_thumbnails/sd_amazon.png"
+            },
+            "name": "Amazon",
+            "type": "url",
+            "url": "https://vivaldi.com/bk/amazon"
+         } ],
+         "date_added": "13363695167169766",
+         "date_last_used": "0",
+         "date_modified": "13363695624315865",
+         "guid": "9f32a0fb-bfd9-5032-be46-07afe4a25400",
+         "id": "4",
+         "name": "Trash",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
