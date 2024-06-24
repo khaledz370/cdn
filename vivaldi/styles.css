@@ -10,7 +10,8 @@
   height: 50px;
 }
 
-#main {
+/* disable anoying glitch */
+#browser, #main {
   overflow: unset !important;
 }
 
@@ -164,3 +165,4 @@ button[class="account-item-large"][title="gayaa370"] {
 .OmniLinkItem {
   padding: 9px 9px !important;
 }
+
