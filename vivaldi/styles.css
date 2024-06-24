@@ -32,12 +32,6 @@
   border-radius: 10px;
 }
 
-/* start-page bookmark button */
-button[data-id="434"],
-button[data-id="451"] {
-  display: none;
-}
-
 /* tabs-tabbar-container */
 #tabs-tabbar-container,
 .window-buttongroup > button,
