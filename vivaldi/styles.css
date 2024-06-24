@@ -1,6 +1,7 @@
-:root {
-  --popupWidth: 170px
-}
+/* :root {
+  --popupWidth: 170px;
+  --Width: 220px;
+} */
 
 #main>.mainbar,
 .mainbar>.toolbar-mainbar,
