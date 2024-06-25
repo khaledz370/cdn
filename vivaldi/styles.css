@@ -3,12 +3,12 @@
   --Width: 220px;
 } */
 
-#main>.mainbar,
+/* #main>.mainbar,
 .mainbar>.toolbar-mainbar,
 .button-toolbar,
 .button-toolbar>button {
   height: 50px;
-}
+} */
 
 /* disable anoying glitch */
 #browser, #main {
@@ -168,4 +168,8 @@ button[class="account-item-large"][title="gayaa370"] {
 
 div.UrlField{
   bottom:2px
+}
+
+#webpage-stack > div > div.row-wrapper > div > div.internal-page > div > div.startpage-content > div > div > div.SpeedDialView-Head > div > div > div.OmniDropdown{
+  border-radius: 15px;
 }
