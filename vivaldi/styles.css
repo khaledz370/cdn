@@ -173,3 +173,9 @@ div.UrlField{
 #webpage-stack > div > div.row-wrapper > div > div.internal-page > div > div.startpage-content > div > div > div.SpeedDialView-Head > div > div > div.OmniDropdown{
   border-radius: 15px;
 }
+
+/* stacked tabs indicator */
+div.tab-indicator{
+  padding-bottom: 0px !important;
+  height: 18px !important;
+}
