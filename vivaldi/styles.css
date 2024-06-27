@@ -8,6 +8,10 @@
   padding: 10px;
 }
 
+.address-top .mainbar{
+  border-bottom-width: 0px;
+}
+
 /* -- end address bar -- */
 
 /* dropdown search suggestions */
@@ -33,11 +37,13 @@ button[name="ekpipjofdicppbepocohdlgenahaneen"] img {
 /* bookmarkbar */
 div.bookmark-bar.default {
   height: 34px;
+  padding-bottom: 5px;
 }
 
-button.bookmarkbarItem{
+.bookmark-bar button {
   border-radius: 8px;
   outline: none;
+  margin-left: 6px;
 }
 
 /* end bookmarkbar */
