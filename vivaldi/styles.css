@@ -1,181 +1,29 @@
-/* :root {
-  --popupWidth: 170px;
-  --Width: 220px;
-} */
-
-/* #main>.mainbar,
-.mainbar>.toolbar-mainbar,
-.button-toolbar,
-.button-toolbar>button {
-  height: 50px;
-} */
-
-/* disable anoying glitch */
-#browser, #main {
-  overflow: unset !important;
-}
-
 /* address bar */
-.UrlBar-SearchField,
-.UrlBar-AddressField {
-  height: 40px;
+#main>div.mainbar {
+  padding: 10px
 }
 
-#tabs-container .button-toolbar {
-  height: 34px;
+#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below {
+  padding: 16px
 }
 
-.BookmarkButton {
-  height: unset;
+/* -- end address bar -- */
+
+/* dropdown search suggestions */
+
+#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below>div.UrlBar-UrlFieldWrapper>div>div.OmniDropdown {
+  border-radius: 22px;
+  padding: 16px;
 }
 
-.bookmark-bar.default {
-  height: 50px;
-  padding-top: 5px;
+#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below>div.UrlBar-UrlFieldWrapper>div>div.OmniDropdown>section>div.omni-clickable.OmniLinkItem {
+  padding: 8px 9px;
 }
 
-*:focus-visible {
-  outline: none;
-}
-
-.color-behind-tabs-on .bookmark-bar button:focus-visible,
-.color-behind-tabs-on .bookmark-bar button:hover {
-  border-radius: 10px;
-}
-
-/* tabs-tabbar-container */
-#tabs-tabbar-container,
-.window-buttongroup>button,
-#titlebar>button {
-  height: 35px !important;
-}
-
-/* tab-header */
-.tab-position .tab .tab-header {
-  margin-top: 4px;
-}
-
-/* bookmarks title font */
-.bookmark-bar button .title {
-  font-size: 14px;
-}
-
-/* back of the toolbar */
-#main>.mainbar {
-  background-color: var(--colorAccentBorderDark);
-}
-
-/* toolbar */
-.mainbar>.toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-visible.toolbar-large {
-  border-radius: 10px 10px 0px 0px;
-  background-color: #2e2f37;
-  padding-right: 5px;
-}
-
-/* tab container */
-/* .win #tabs-container:not(.none).top { */
-/* padding-left: 11px; */
-/* } */
-
-/* search bar in speed-dail page */
-.button-textonly.SpeedDialView-SearchField.iconmenu-container.SearchField.below {
-  border-radius: 35px;
-}
-
-/* search bar in speed-dail page */
-.SpeedDialView-Head {
-  max-width: 900px !important;
-}
-
-/* search bar search icon */
-
-#webpage-stack>div>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.SpeedDialView-Head>div>div>div.toolbar-insideinput.SearchEngineSelect-Icon>div>button {
-  height: 50px;
-  width: 50px;
-}
+/* -- end dropdown search suggestions -- */
 
 /* streamkeys extention */
 button[name="ekpipjofdicppbepocohdlgenahaneen"] img {
   content: url("./Audio.ico");
 }
-
-/* bookmark bar */
-div.observer>button.bookmarkbarItem {
-  margin-bottom: 5px;
-}
-
-/* top horizontal bar */
-/* #titlebar > .tabbar-wrapper {
-  margin-bottom: 10px;
-} */
-
-/* sandwitch menu */
-/* button.vivaldi[title="Menu"] {
-  top: 41px;
-  z-index: 99;
-  right: 0;
-  left: unset;
-  padding-right: 23px;
-  padding-left: 23px;
-} */
-
-/* acount circle icon */
-/* div.button-toolbar:has(button[name="AccountButton"]) {
-  left: 6px;
-} */
-
-/* favicon annoying background */
-.transparent-tabbar .tab-position .tab.active .tab-header .favicon:not(.svg),
-.theme-dark .tab-position .tab.active .tab-header .favicon:not(.svg),
-.acc-dark.color-behind-tabs-off .tab-position .tab.active .tab-header .favicon:not(.svg) {
-  filter: unset !important;
-}
-
-#browser.win {
-  padding-bottom: 0px !important;
-}
-
-button[class="account-item"][title="gayaa370"],
-button[class="account-item-large"][title="gayaa370"] {
-  display: none;
-}
-
-/* extension popup list */
-/* .extensionIconPopupMenu>.toolbar {
-  display: flex;
-  flex-direction: column;
-} */
-
-
-#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below>div:nth-child(1)>div>button {
-  width: 50px;
-  height: 33px;
-}
-
-#main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below>div.toolbar.toolbar-small.toolbar-insideinput>div>button {
-  width: 50px;
-  height: 33px;
-}
-
-#main>div.mainbar>div {
-  padding-top: 10px;
-}
-
-/* search suggestions */
-.OmniLinkItem {
-  padding: 9px 9px !important;
-}
-
-div.UrlField{
-  bottom:2px
-}
-
-#webpage-stack > div > div.row-wrapper > div > div.internal-page > div > div.startpage-content > div > div > div.SpeedDialView-Head > div > div > div.OmniDropdown{
-  border-radius: 15px;
-}
-
-/* stacked tabs indicator */
-div.tab-indicator{
-  padding-bottom: 0px !important;
-  height: 18px !important;
-}
+/* -- end streamkeys extention -- */
