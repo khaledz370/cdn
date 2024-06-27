@@ -8,7 +8,7 @@
   padding: 10px;
 }
 
-.address-top .mainbar{
+.address-top .mainbar {
   border-bottom-width: 0px;
 }
 
@@ -47,3 +47,32 @@ div.bookmark-bar.default {
 }
 
 /* end bookmarkbar */
+
+/* startpage search field */
+
+.sdwrapper .iconmenu-container.SearchField {
+  width: 176%;
+  padding: 18px;
+  right: 38%;
+  border-radius: 50px;
+}
+
+#webpage-stack>div.webpageview.active.internal.visible.pagefocusstop>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.SpeedDialView-Head>div>div>div.OmniDropdown {
+  border-radius: 20px;
+  padding: 1%;
+}
+
+#webpage-stack>div.webpageview.active.internal.visible.pagefocusstop>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.SpeedDialView-Head>div>div>div.OmniDropdown>section:nth-child(2)>div.OmniLinkItem {
+  padding: 10px 9px;
+}
+
+button[title="Change search engine"]>img.button-icon,
+button[title="Change search engine"]>.button-icon svg {
+  height: 26px;
+  width: 26px;
+}
+
+#webpage-stack > div.webpageview.active.internal.visible.pagefocusstop > div.row-wrapper > div > div.internal-page > div > div.startpage-content > div > div > div.SpeedDialView-Head > div > div > input{
+  margin-left: 15px;
+}
+/* -- end startpage search field -- */
