@@ -4,7 +4,8 @@
 }
 
 #main>div.mainbar>div>div.UrlBar-AddressField.button-textonly.below {
-  padding: 16px
+  height: 40px;
+  padding: 10px;
 }
 
 /* -- end address bar -- */
@@ -26,4 +27,17 @@
 button[name="ekpipjofdicppbepocohdlgenahaneen"] img {
   content: url("./Audio.ico");
 }
+
 /* -- end streamkeys extention -- */
+
+/* bookmarkbar */
+div.bookmark-bar.default {
+  height: 34px;
+}
+
+button.bookmarkbarItem{
+  border-radius: 8px;
+  outline: none;
+}
+
+/* end bookmarkbar */
