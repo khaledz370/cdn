@@ -82,3 +82,10 @@ button[title="Change search engine"]>.button-icon svg {
 .acc-dark.color-behind-tabs-off .tab-position .tab.active .tab-header .favicon:not(.svg) {
   filter: unset !important;
 }
+
+/* recent */
+
+#tabs-container>div>div.toolbar.toolbar-tabbar.sync-and-trash-container.top {
+  margin-top: 42px;
+  opacity: 0;
+}
