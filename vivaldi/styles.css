@@ -12,7 +12,6 @@
   border-bottom-width: 0px;
 }
 
-/* -- end address bar -- */
 
 /* dropdown search suggestions */
 
@@ -30,14 +29,11 @@
 }
 
 
-/* -- end dropdown search suggestions -- */
-
 /* streamkeys extention */
 button[name="ekpipjofdicppbepocohdlgenahaneen"] img {
   content: url("./Audio.ico");
 }
 
-/* -- end streamkeys extention -- */
 
 /* bookmarkbar */
 div.bookmark-bar.default {
@@ -51,7 +47,6 @@ div.bookmark-bar.default {
   margin-left: 6px;
 }
 
-/* end bookmarkbar */
 
 /* startpage search field */
 
@@ -81,4 +76,9 @@ button[title="Change search engine"]>.button-icon svg {
   margin-left: 15px;
 }
 
-/* -- end startpage search field -- */
+/* -- tabs -- */
+.transparent-tabbar .tab-position .tab.active .tab-header .favicon:not(.svg),
+.theme-dark .tab-position .tab.active .tab-header .favicon:not(.svg),
+.acc-dark.color-behind-tabs-off .tab-position .tab.active .tab-header .favicon:not(.svg) {
+  filter: unset !important;
+}
