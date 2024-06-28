@@ -89,3 +89,37 @@ button[title="Change search engine"]>.button-icon svg {
   margin-top: 42px;
   opacity: 0;
 }
+
+
+/* speed dail */
+.speeddial .dial {
+  border-radius: 76px !important;
+  height: 215px !important;
+}
+
+
+.speeddial .dial:not(.icon) .thumbnail-title:has(img, .favicon) {
+  justify-content: center !important;
+}
+
+#webpage-stack>div>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.dials-wrapper>span>div>div>div>div.thumb-controls {
+  position: absolute;
+  top: 75px;
+  left: 5%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-direction: column;
+}
+
+
+/* #webpage-stack>div>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.dials-wrapper>span>div>div>div>div.thumbnail-title {
+  gap: 60px !important;
+}
+
+.dial .thumbnail-title {
+  gap: unset !important;
+  height: 10px;
+  margin-left: 30%;
+} */
