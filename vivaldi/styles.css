@@ -130,3 +130,7 @@ button[title="Change search engine"]>.button-icon svg {
 .dials .dial .update-thumbnail {
   display: none;
 }
+
+:not(.resizing)#panels-container.overlay .panel-group {
+  transition:width 1s ease-out;
+}
