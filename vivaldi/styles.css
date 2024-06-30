@@ -104,7 +104,7 @@ button[title="Change search engine"]>.button-icon svg {
 
 #webpage-stack>div>div.row-wrapper>div>div.internal-page>div>div.startpage-content>div>div>div.dials-wrapper>span>div>div>div>div.thumb-controls {
   position: absolute;
-  top: 75px;
+  top: 60px;
   left: 5%;
   height: 60px;
   display: flex;
@@ -123,3 +123,10 @@ button[title="Change search engine"]>.button-icon svg {
   height: 10px;
   margin-left: 30%;
 } */
+
+
+
+/* status bar */
+.dials .dial .update-thumbnail {
+  display: none;
+}
