@@ -132,5 +132,21 @@ button[title="Change search engine"]>.button-icon svg {
 }
 
 :not(.resizing)#panels-container.overlay .panel-group {
-  transition:width 1s ease-out;
+  transition: width 1s ease-out;
+}
+
+#webpage-stack>div.webpageview.active.visible.pagefocusstop>div.find-in-page-wrapper>div {
+  position: absolute;
+  z-index: 999;
+  right: 10%;
+  top: 1%;
+  background-color: darkcyan;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+
+.UrlBar-SearchField, .UrlBar-AddressField {
+  height: 40px;
+  padding: 0 20px;
 }
