@@ -1,0 +1,139 @@
+my.te.eg##.spinner
+my.te.eg##.spinner-overlay
+
+google.com##div[class^="promotion-"]
+
+fitgirl-repacks.site###smart_push_smio_overlay
+fitgirl-repacks.site###smart_push_smio_window
+fitgirl-repacks.site##.site,.site-header:style(max-width:unset !important)
+fitgirl-repacks.site###content-sidebar
+
+repack-games.com##body:style(background-color:rgba(0, 0, 0, 0.9)!important)
+repack-games.com##div.wrap-content:style(background-color:transparent !important;border-left:1px solid transparent !important;border-right:1px solid transparent !important)
+repack-games.com##div.content-list:style(background-color:gray !important)
+repack-games.com##li.type-post,.modern-articles>li:style(background-color:#808080 !important;box-shadow:2px 3px 10px 0 rgba(0,0,0,.2)!important;height:350px !important;overflow:hidden !important;)
+repack-games.com##ul.modern-articles>li>div.content-list:style(box-shadow:none !important)
+repack-games.com##h2:style(font-size:13px!important;text-align:left !important)
+repack-games.com##li:has(div.artbtn-category>a[href*="https://repack-games.com/category/adult/"])
+repack-games.com##div.owl-item:has(img[src="https://repack-games.com/wp-content/uploads/2022/07/FreshWomen-Season-1-Pre-installed-Game-Download.jpg"])
+repack-games.com##div.owl-item:has(img[src="https://repack-games.com/wp-content/uploads/2020/05/The-Awakening-Download.jpg"])
+repack-games.com###menu-item-10155,#menu-item-16326
+repack-games.com##.top-navigation,.footer-navigation,.wp-dark-mode-switcher,.top-social>.request-video-menu.menu-item,.social-section
+repack-games.com##li.post.type-post.category-adult,li.category-nudity.post.type-post
+repack-games.com##li[id*='menu-item'].menu-item-object-category:style(background:grey !important)
+repack-games.com##li:has(div.artbtn-category:has(a[title="View all posts in 3D Comics"]))
+
+||image.tmdb.org/t/p/w1280/zoJe2FpRtzkY3s55yvZ7teNVB7I.jpg$image
+yts-yts.cam##.modal-active.modal
+
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com###guide-links-primary
+youtube.com###guide-links-secondary
+youtube.com##div#header >ytd-guide-entry-renderer.style-scope:has-text(/Library/)
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(6)
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##ytd-guide-section-renderer:has(h3:has-text(Subscriptions))
+youtube.com##ytd-guide-entry-renderer:has(a:has(yt-formatted-string:has-text(Shorts)))
+youtube.com##ytd-guide-section-renderer:has(h3:has(yt-formatted-string:has-text(Explore)))
+youtube.com###footer
+youtube.com##div[line-end-style="none"]:has(a[title='Deck'])
+youtube.com###columns.ytd-watch-flexy:style(max-width:unset !important;margin:2% !important)
+youtube.com###clarify-box
+youtube.com##ytd-watch-metadata.ytd-watch-flexy:style(margin-top:unset !important)
+youtube.com###video-title.ytd-rich-grid-media:style(display:unset !important)
+youtube.com##:matches-path(/feed/history).ytd-two-column-browse-results-renderer.style-scope > .ytd-browse-feed-actions-renderer.style-scope
+youtube.com###contentContainer.tp-yt-app-drawer[swipe-open].tp-yt-app-drawer::after
+youtube.com##form[id^="msfy-donate-button"],yt-icon[id^="msfy-donate-icon"]
+youtube.com##ytd-rich-section-renderer>div#content>ytd-rich-shelf-renderer>div#dismissible
+youtube.com###contents > ytd-rich-section-renderer:nth-child(19)
+
+facebook.com##li:has(a[aria-label^="Friends"])
+facebook.com##li:has(a[aria-label^="Marketplace"])
+facebook.com##li:has(a[aria-label^="Gaming"])
+facebook.com##ytd-guide-section-renderer:has(yt-formatted-string[id^="guide-section-title"])
+facebook.com##:matches-path(/^/reel/)div[data-visualcompletion^="ignore"],div.x1ey2m1c.x78zum5.xdt5ytf.xozqiw3.x13a6bvl.x10l6tqk.x17qophe.x13vifvy.xq2gx43.xh8yej3
+facebook.com##:matches-path(/^/reel/).xbmpl8g.xykv574.x1iorvi4.x1q0g3np.xozqiw3.x1qjc9v5.x1qughib.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > .x16hj40l.xsyo7zv.xeuugli.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+facebook.com##:matches-path(/^/reel/)video:style(video::-webkit-media-controls-panel {display: flex !important; opacity: 1 !important;}:)
+facebook.com##:matches-path(/^/watch/)div.x1ey2m1c.x9f619.xds687c.x10l6tqk.x17qophe.x13vifvy.x1ypdohk
+facebook.com##+js(set-attr, a[aria-label="Enlarge"] , href,"")
+facebook.com##+js(set-attr, a[aria-label="Enlarge"] , role,"")
+
+instagram.com##+js(set-attr,video,controls,"")
+instagram.com##div[data-instancekey^="id-vpuid-"]:style(pointer-events: none !important; )
+
+primevideo.com##.xrayQuickView
+
+tiktok.com##.css-py8jux-DivModalContainer
+tiktok.com##body.hidden:style(overflow:unset !important)
+tiktok.com##div[class^='tiktok-']:has(#login-modal-title)
+tiktok.com##div[id^='tiktok-verify']
+tiktok.com##body > div[class^='css-behvuc-DivModalContainer']
+
+www.hueber.de##.v_a_media > .audio_media :style(width: 413% !important)
+
+nilesoft.org##.modal-background
+nilesoft.org##.has-text-centered.box
+
+my.te.eg##div.ng-star-inserted.mb-4.col-xl-3.col-lg-4.col-sm-6:nth-of-type(2)
+
+anix.to##button.header-btn.btn.notify:style(background:#6aa84f)
+anix.to##button.header-btn.btn:style(background:#b45f06)
+
+aniwatchtv.to###anime-trending,#discussion,#anime-featured,#wrapper > div:nth-child(7),#wrapper > div.share-buttons.share-buttons-home
+aniwatchtv.to###discussion
+aniwatchtv.to###wrapper > div:nth-child(7),#wrapper > div.share-buttons.share-buttons-home
+aniwatchtv.to###anime-featured
+aniwatchtv.to###main-sidebar > section.block_area.block_area_sidebar.block_area-genres
+aniwatchtv.to###header > div > div.header-group
+aniwatchtv.to###main-sidebar > section.block_area.block_area_sidebar.block_area-connecting
+
+verbformen.com###sp_message_container_813005
+
+gotytv.com##.mx-5.mt-8.flex.flex-col.undefined
+gotytv.com##.flex.h-14.w-full.items-center.overflow-hidden.rounded-2xl.undefined
+gotytv.com##div.mx-5.mt-10.flex.flex-col.undefined:has(h5:contains("New Episodes for you"))
+gotytv.com##div.flex.w-full.flex-col.undefined.svelte-pq7ljk:has(h5:contains("Movies"))
+gotytv.com##div.flex.flex-col.undefined:has(h5:contains("Movies"))
+
+amazon.eg###navbar-main:style(position: sticky !important;top: 0!important;z-index: 9999 !important;)
+
+nilesoft.org###cookieConsent
+
+
+kickassanime.mx##.v-card.v-sheet.v-sheet--outlined.theme--dark
+
+play.google.com##button:remove-attr('disabled')
+
+microsoft.com###epb
+
+amazon.eg###nav-link-accountList:remove-attr('href')
+amazon.eg##.nav-flyout-sidePanel:has-text(Buy it again)
+
+quran-online.com##.blockinteraction
+
+www.terabox.com##div.seo-banner-box
+www.terabox.com##div.notification-wrap.u-carousel.u-carousel--horizontal
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.operate-popup-box
+www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
+www.terabox.com##.membership-entry
+
+my.te.eg##.adm-mask.adm-toast-mask.loadings
+
+! Jul 23, 2024 https://chatgpt.com
+chatgpt.com##.shadow-xxs.lg\:mx-auto.md\:items-center.dark\:bg-token-main-surface-secondary.dark\:border-transparent.\[text-wrap\:pretty\].text-token-text-primary.text-sm.pr-3.pl-5.py-4.bg-token-main-surface-primary.border-token-border-light.border.rounded-2xl.gap-4.items-start.w-full.flex
+chatgpt.com###scroll-button-wrapper,#sidebar-note-button
+chatgpt.com##+js(set-attr, textarea#prompt-textarea , placeholder,"")
+chatgpt.com###copy-code:style(outline:0)
+chatgpt.com###__next > div.relative.z-0.flex.h-full.w-full.overflow-hidden > div.relative.flex.h-full.max-w-full.flex-1.flex-col.overflow-hidden > main > div.flex.h-full.flex-col.bg-token-main-surface-primary.transition-width.relative:style(outline:0;)
+chatgpt.com###drag-and-drop-overlay
+chatgpt.com##div[id^="user-message-text-wrapper"]:style(flex-direction: row-reverse !important;)
+chatgpt.com##div[id^="user-message-text-wrapper"][class="flex flex-grow flex-col gap-1 rounded-3xl bg-token-main-surface-tertiary p-3"]:style(flex-direction: column !important;)
+chatgpt.com##button[id^="message-add-to-library-button"],button[id^="message-pin-button"]
+chatgpt.com##button[id^="message-edit-button"].invisible:style(visibility: visible !important)
+chatgpt.com###gallery-button,#newsletter-button
+chatgpt.com###navbar-model-switcher-option-text-davinci-002-render-sha,#navbar-model-list-dropdown > div.flex.items-center.mx-2.p-2\.5.pl-4.text-sm.cursor-pointer.focus-visible\:outline-0.group.relative.focus-visible\:bg-\[\#f5f5f5\].dark\:hover\:bg-token-main-surface-tertiary.dark\:focus-visible\:bg-token-main-surface-tertiary.rounded-md.px-3.gap-2\.5.py-3.\!pr-3,#navbar-model-switcher-option-auto
+chatgpt.com###select-action-button:style(outline:none !important)
+chatgpt.com##body > div.relative.flex.h-full.w-full.overflow-hidden.transition-colors.z-0 > div.relative.flex.h-full.max-w-full.flex-1.flex-col.overflow-hidden > main > div.flex.h-full.flex-col.bg-token-main-surface-primary.transition-width.relative:style(outline: none !important;)
+! chatgpt.com###__next > div > div.flex-shrink-0.overflow-x-hidden.bg-token-sidebar-surface-primary.resize-x:style(width: 300px !important;)
